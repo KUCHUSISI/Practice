@@ -1,0 +1,923 @@
+2021-05-01 12:04:26.847  INFO 10995 --- [restartedMain] c.e.s.SpringGradleApplication            : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 10995 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 12:04:26.853  INFO 10995 --- [restartedMain] c.e.s.SpringGradleApplication            : The following profiles are active: dev
+2021-05-01 12:04:26.899  INFO 10995 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 12:04:27.155  INFO 10995 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 12:04:27.156  INFO 10995 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 12:04:27.178  INFO 10995 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 MongoDB repository interfaces.
+2021-05-01 12:04:27.489  INFO 10995 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-01 12:04:27.499  INFO 10995 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 12:04:27.499  INFO 10995 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 12:04:27.500  INFO 10995 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 12:04:27.500  INFO 10995 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 12:04:27.500  INFO 10995 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 12:04:27.502  INFO 10995 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 12:04:27.530  INFO 10995 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 12:04:27.531  INFO 10995 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 631 ms
+2021-05-01 12:04:27.595  INFO 10995 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 12:04:27.622  INFO 10995 --- [cluster-rtt-ClusterId{value='608cf6736f6bd174bd6dc94d', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:2}] to localhost:27017
+2021-05-01 12:04:27.622  INFO 10995 --- [cluster-ClusterId{value='608cf6736f6bd174bd6dc94d', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+2021-05-01 12:04:27.622  INFO 10995 --- [cluster-ClusterId{value='608cf6736f6bd174bd6dc94d', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9851758}
+2021-05-01 12:04:27.734  INFO 10995 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 12:04:27.905  INFO 10995 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-01 12:04:27.912  INFO 10995 --- [restartedMain] c.e.s.SpringGradleApplication            : Started SpringGradleApplication in 1.28 seconds (JVM running for 1.49)
+2021-05-01 12:10:37.456  INFO 12100 --- [restartedMain] c.e.s.SpringGradleApplication            : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 12100 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 12:10:37.459  INFO 12100 --- [restartedMain] c.e.s.SpringGradleApplication            : The following profiles are active: dev
+2021-05-01 12:10:37.525  INFO 12100 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 12:10:37.844  INFO 12100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 12:10:37.844  INFO 12100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 12:10:37.865  INFO 12100 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 MongoDB repository interfaces.
+2021-05-01 12:10:38.130  INFO 12100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-01 12:10:38.135  INFO 12100 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 12:10:38.135  INFO 12100 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 12:10:38.136  INFO 12100 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 12:10:38.136  INFO 12100 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 12:10:38.136  INFO 12100 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 12:10:38.138  INFO 12100 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 12:10:38.164  INFO 12100 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 12:10:38.164  INFO 12100 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 638 ms
+2021-05-01 12:10:38.222  INFO 12100 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 12:10:38.246  INFO 12100 --- [cluster-ClusterId{value='608cf7e642b49c335b913b5b', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:3}] to localhost:27017
+2021-05-01 12:10:38.246  INFO 12100 --- [cluster-rtt-ClusterId{value='608cf7e642b49c335b913b5b', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:4}] to localhost:27017
+2021-05-01 12:10:38.246  INFO 12100 --- [cluster-ClusterId{value='608cf7e642b49c335b913b5b', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=8588627}
+2021-05-01 12:10:38.336  INFO 12100 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 12:10:38.513  INFO 12100 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-01 12:10:38.519  INFO 12100 --- [restartedMain] c.e.s.SpringGradleApplication            : Started SpringGradleApplication in 1.351 seconds (JVM running for 1.61)
+2021-05-01 12:43:04.548  INFO 13540 --- [restartedMain] c.e.s.SpringGradleApplication            : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 13540 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 12:43:04.550  INFO 13540 --- [restartedMain] c.e.s.SpringGradleApplication            : The following profiles are active: dev
+2021-05-01 12:43:04.588  INFO 13540 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 12:43:04.826  INFO 13540 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 12:43:04.826  INFO 13540 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 12:43:04.848  INFO 13540 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 MongoDB repository interfaces.
+2021-05-01 12:43:05.140  INFO 13540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-01 12:43:05.145  INFO 13540 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 12:43:05.145  INFO 13540 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 12:43:05.146  INFO 13540 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 12:43:05.146  INFO 13540 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 12:43:05.146  INFO 13540 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 12:43:05.148  INFO 13540 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 12:43:05.177  INFO 13540 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 12:43:05.177  INFO 13540 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 588 ms
+2021-05-01 12:43:05.250  INFO 13540 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 12:43:05.280  INFO 13540 --- [cluster-rtt-ClusterId{value='608cff81ce1d7526942a1d11', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:6}] to localhost:27017
+2021-05-01 12:43:05.280  INFO 13540 --- [cluster-ClusterId{value='608cff81ce1d7526942a1d11', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:5}] to localhost:27017
+2021-05-01 12:43:05.280  INFO 13540 --- [cluster-ClusterId{value='608cff81ce1d7526942a1d11', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10453190}
+2021-05-01 12:43:05.411  INFO 13540 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 12:43:05.644  INFO 13540 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-01 12:43:05.651  INFO 13540 --- [restartedMain] c.e.s.SpringGradleApplication            : Started SpringGradleApplication in 1.306 seconds (JVM running for 1.562)
+2021-05-01 12:43:46.205  INFO 13540 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-01 12:43:46.205  INFO 13540 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-01 12:43:46.206  INFO 13540 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-05-01 12:43:46.248  INFO 13540 --- [http-nio-9000-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:7}] to localhost:27017
+2021-05-01 12:43:46.300 ERROR 13540 --- [http-nio-9000-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.example.mapper.Pojo]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.example.mapper.Pojo and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0])] with root cause
+
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.example.mapper.Pojo and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1277) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:145) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:107) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1512) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1006) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:454) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:124) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.45.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.45.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_282]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_282]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_282]
+
+2021-05-01 12:44:36.030  INFO 13540 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:7}] to localhost:27017 because the pool has been closed.
+2021-05-01 12:46:57.018  INFO 14428 --- [restartedMain] c.e.s.SpringGradleApplication            : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 14428 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 12:46:57.020  INFO 14428 --- [restartedMain] c.e.s.SpringGradleApplication            : The following profiles are active: dev
+2021-05-01 12:46:57.070  INFO 14428 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 12:46:57.361  INFO 14428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 12:46:57.361  INFO 14428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 12:46:57.392  INFO 14428 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 1 MongoDB repository interfaces.
+2021-05-01 12:46:57.729  INFO 14428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-01 12:46:57.734  INFO 14428 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 12:46:57.734  INFO 14428 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 12:46:57.736  INFO 14428 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 12:46:57.736  INFO 14428 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 12:46:57.736  INFO 14428 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 12:46:57.738  INFO 14428 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 12:46:57.775  INFO 14428 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 12:46:57.775  INFO 14428 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 704 ms
+2021-05-01 12:46:57.852  INFO 14428 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 12:46:57.882  INFO 14428 --- [cluster-ClusterId{value='608d00691a8843410f1218e7', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:9}] to localhost:27017
+2021-05-01 12:46:57.882  INFO 14428 --- [cluster-rtt-ClusterId{value='608d00691a8843410f1218e7', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:8}] to localhost:27017
+2021-05-01 12:46:57.882  INFO 14428 --- [cluster-ClusterId{value='608d00691a8843410f1218e7', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10048773}
+2021-05-01 12:46:58.005  INFO 14428 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 12:46:58.244  INFO 14428 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-01 12:46:58.252  INFO 14428 --- [restartedMain] c.e.s.SpringGradleApplication            : Started SpringGradleApplication in 1.477 seconds (JVM running for 1.735)
+2021-05-01 12:49:06.036  INFO 14947 --- [restartedMain] c.e.s.SpringGradleApplication            : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 14947 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 12:49:06.038  INFO 14947 --- [restartedMain] c.e.s.SpringGradleApplication            : The following profiles are active: dev
+2021-05-01 12:49:06.080  INFO 14947 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 12:49:06.336  INFO 14947 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 12:49:06.337  INFO 14947 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 12:49:06.361  INFO 14947 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 MongoDB repository interfaces.
+2021-05-01 12:49:06.662  INFO 14947 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-01 12:49:06.668  INFO 14947 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 12:49:06.668  INFO 14947 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 12:49:06.669  INFO 14947 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 12:49:06.669  INFO 14947 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 12:49:06.669  INFO 14947 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 12:49:06.671  INFO 14947 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 12:49:06.701  INFO 14947 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 12:49:06.701  INFO 14947 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 620 ms
+2021-05-01 12:49:06.769  INFO 14947 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 12:49:06.796  INFO 14947 --- [cluster-ClusterId{value='608d00ead1f3e231e2741fde', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:10}] to localhost:27017
+2021-05-01 12:49:06.796  INFO 14947 --- [cluster-rtt-ClusterId{value='608d00ead1f3e231e2741fde', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:11}] to localhost:27017
+2021-05-01 12:49:06.797  INFO 14947 --- [cluster-ClusterId{value='608d00ead1f3e231e2741fde', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9277889}
+2021-05-01 12:49:06.911  INFO 14947 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 12:49:07.116  INFO 14947 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-01 12:49:07.122  INFO 14947 --- [restartedMain] c.e.s.SpringGradleApplication            : Started SpringGradleApplication in 1.297 seconds (JVM running for 1.578)
+2021-05-01 12:49:10.971  INFO 14947 --- [http-nio-9000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-01 12:49:10.972  INFO 14947 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-01 12:49:10.972  INFO 14947 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-05-01 12:49:11.022  INFO 14947 --- [http-nio-9000-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:12}] to localhost:27017
+2021-05-01 12:50:47.353  INFO 14947 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:12}] to localhost:27017 because the pool has been closed.
+2021-05-01 12:50:52.137  INFO 15395 --- [restartedMain] c.e.s.SpringGradleApplication            : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 15395 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 12:50:52.139  INFO 15395 --- [restartedMain] c.e.s.SpringGradleApplication            : The following profiles are active: dev
+2021-05-01 12:50:52.176  INFO 15395 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 12:50:52.432  INFO 15395 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 12:50:52.432  INFO 15395 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 12:50:52.455  INFO 15395 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 MongoDB repository interfaces.
+2021-05-01 12:50:52.779  INFO 15395 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-01 12:50:52.784  INFO 15395 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 12:50:52.785  INFO 15395 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 12:50:52.786  INFO 15395 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 12:50:52.786  INFO 15395 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 12:50:52.786  INFO 15395 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 12:50:52.787  INFO 15395 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 12:50:52.819  INFO 15395 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 12:50:52.819  INFO 15395 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 642 ms
+2021-05-01 12:50:52.893  INFO 15395 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 12:50:52.927  INFO 15395 --- [cluster-ClusterId{value='608d015421aeb41ae589669e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:13}] to localhost:27017
+2021-05-01 12:50:52.927  INFO 15395 --- [cluster-rtt-ClusterId{value='608d015421aeb41ae589669e', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:14}] to localhost:27017
+2021-05-01 12:50:52.928  INFO 15395 --- [cluster-ClusterId{value='608d015421aeb41ae589669e', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=13844441}
+2021-05-01 12:50:53.055  INFO 15395 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 12:50:53.289  INFO 15395 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-01 12:50:53.296  INFO 15395 --- [restartedMain] c.e.s.SpringGradleApplication            : Started SpringGradleApplication in 1.357 seconds (JVM running for 1.584)
+2021-05-01 12:50:57.903  INFO 15395 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-01 12:50:57.903  INFO 15395 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-01 12:50:57.904  INFO 15395 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-01 12:50:57.955  INFO 15395 --- [http-nio-9000-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:15}] to localhost:27017
+2021-05-01 12:53:03.661  INFO 15395 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:15}] to localhost:27017 because the pool has been closed.
+2021-05-01 12:53:08.930  INFO 15948 --- [restartedMain] c.e.s.SpringGradleApplication            : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 15948 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 12:53:08.932  INFO 15948 --- [restartedMain] c.e.s.SpringGradleApplication            : The following profiles are active: dev
+2021-05-01 12:53:08.969  INFO 15948 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 12:53:09.245  INFO 15948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 12:53:09.245  INFO 15948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 12:53:09.271  INFO 15948 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 1 MongoDB repository interfaces.
+2021-05-01 12:53:09.595  INFO 15948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-01 12:53:09.600  INFO 15948 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 12:53:09.600  INFO 15948 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 12:53:09.601  INFO 15948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 12:53:09.601  INFO 15948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 12:53:09.601  INFO 15948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 12:53:09.603  INFO 15948 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 12:53:09.633  INFO 15948 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 12:53:09.633  INFO 15948 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 663 ms
+2021-05-01 12:53:09.704  INFO 15948 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 12:53:09.733  INFO 15948 --- [cluster-rtt-ClusterId{value='608d01dd09b78932a6800394', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:16}] to localhost:27017
+2021-05-01 12:53:09.733  INFO 15948 --- [cluster-ClusterId{value='608d01dd09b78932a6800394', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:17}] to localhost:27017
+2021-05-01 12:53:09.733  INFO 15948 --- [cluster-ClusterId{value='608d01dd09b78932a6800394', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10243068}
+2021-05-01 12:53:09.851  INFO 15948 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 12:53:10.065  INFO 15948 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-01 12:53:10.073  INFO 15948 --- [restartedMain] c.e.s.SpringGradleApplication            : Started SpringGradleApplication in 1.358 seconds (JVM running for 1.631)
+2021-05-01 12:53:16.305  INFO 15948 --- [http-nio-9000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-01 12:53:16.305  INFO 15948 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-01 12:53:16.306  INFO 15948 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-01 12:53:16.346  INFO 15948 --- [http-nio-9000-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:18}] to localhost:27017
+2021-05-01 12:54:29.941  INFO 15948 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:18}] to localhost:27017 because the pool has been closed.
+2021-05-01 12:54:34.626  INFO 16412 --- [restartedMain] c.e.s.SpringGradleApplication            : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 16412 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 12:54:34.629  INFO 16412 --- [restartedMain] c.e.s.SpringGradleApplication            : The following profiles are active: dev
+2021-05-01 12:54:34.667  INFO 16412 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 12:54:34.936  INFO 16412 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 12:54:34.937  INFO 16412 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 12:54:34.962  INFO 16412 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 MongoDB repository interfaces.
+2021-05-01 12:54:35.280  INFO 16412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-01 12:54:35.284  INFO 16412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 12:54:35.285  INFO 16412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 12:54:35.285  INFO 16412 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 12:54:35.286  INFO 16412 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 12:54:35.286  INFO 16412 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 12:54:35.287  INFO 16412 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 12:54:35.315  INFO 16412 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 12:54:35.315  INFO 16412 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 647 ms
+2021-05-01 12:54:35.379  INFO 16412 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 12:54:35.406  INFO 16412 --- [cluster-ClusterId{value='608d023315a81000b8d7e5b9', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:20}] to localhost:27017
+2021-05-01 12:54:35.406  INFO 16412 --- [cluster-rtt-ClusterId{value='608d023315a81000b8d7e5b9', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:19}] to localhost:27017
+2021-05-01 12:54:35.406  INFO 16412 --- [cluster-ClusterId{value='608d023315a81000b8d7e5b9', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10110841}
+2021-05-01 12:54:35.523  INFO 16412 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 12:54:35.727  INFO 16412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-01 12:54:35.734  INFO 16412 --- [restartedMain] c.e.s.SpringGradleApplication            : Started SpringGradleApplication in 1.316 seconds (JVM running for 1.544)
+2021-05-01 12:54:39.838  INFO 16412 --- [http-nio-9000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-01 12:54:39.838  INFO 16412 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-01 12:54:39.839  INFO 16412 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-01 12:54:39.877  INFO 16412 --- [http-nio-9000-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:21}] to localhost:27017
+2021-05-01 12:57:06.761  INFO 16412 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:21}] to localhost:27017 because the pool has been closed.
+2021-05-01 12:57:12.450  INFO 16929 --- [restartedMain] c.e.s.SpringGradleApplication            : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 16929 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 12:57:12.451  INFO 16929 --- [restartedMain] c.e.s.SpringGradleApplication            : The following profiles are active: dev
+2021-05-01 12:57:12.496  INFO 16929 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 12:57:12.768  INFO 16929 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 12:57:12.769  INFO 16929 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 12:57:12.798  INFO 16929 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 MongoDB repository interfaces.
+2021-05-01 12:57:13.118  INFO 16929 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-01 12:57:13.123  INFO 16929 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 12:57:13.124  INFO 16929 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 12:57:13.124  INFO 16929 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 12:57:13.125  INFO 16929 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 12:57:13.125  INFO 16929 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 12:57:13.126  INFO 16929 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 12:57:13.155  INFO 16929 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 12:57:13.155  INFO 16929 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 659 ms
+2021-05-01 12:57:13.222  INFO 16929 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 12:57:13.253  INFO 16929 --- [cluster-rtt-ClusterId{value='608d02d1e522e63264ff0667', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:23}] to localhost:27017
+2021-05-01 12:57:13.253  INFO 16929 --- [cluster-ClusterId{value='608d02d1e522e63264ff0667', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:22}] to localhost:27017
+2021-05-01 12:57:13.253  INFO 16929 --- [cluster-ClusterId{value='608d02d1e522e63264ff0667', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=11154526}
+2021-05-01 12:57:13.365  INFO 16929 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 12:57:13.556  INFO 16929 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-01 12:57:13.562  INFO 16929 --- [restartedMain] c.e.s.SpringGradleApplication            : Started SpringGradleApplication in 1.342 seconds (JVM running for 1.621)
+2021-05-01 12:57:18.279  INFO 16929 --- [http-nio-9000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-01 12:57:18.279  INFO 16929 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-01 12:57:18.280  INFO 16929 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-05-01 12:57:18.318  INFO 16929 --- [http-nio-9000-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:24}] to localhost:27017
+2021-05-01 12:57:18.372 ERROR 16929 --- [http-nio-9000-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.example.mapper.Pojo]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.example.mapper.Pojo and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0])] with root cause
+
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.example.mapper.Pojo and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1277) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:145) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:107) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1512) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1006) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:454) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:124) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.45.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.45.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_282]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_282]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_282]
+
+2021-05-01 12:57:27.855  INFO 16929 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:24}] to localhost:27017 because the pool has been closed.
+2021-05-01 13:03:27.060  INFO 17987 --- [restartedMain] c.e.s.SpringGradleApplication            : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 17987 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 13:03:27.062  INFO 17987 --- [restartedMain] c.e.s.SpringGradleApplication            : The following profiles are active: dev
+2021-05-01 13:03:27.103  INFO 17987 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 13:03:27.352  INFO 17987 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 13:03:27.353  INFO 17987 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 13:03:27.376  INFO 17987 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 1 MongoDB repository interfaces.
+2021-05-01 13:03:27.721  INFO 17987 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-01 13:03:27.726  INFO 17987 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 13:03:27.726  INFO 17987 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 13:03:27.727  INFO 17987 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 13:03:27.727  INFO 17987 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 13:03:27.727  INFO 17987 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 13:03:27.729  INFO 17987 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 13:03:27.759  INFO 17987 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 13:03:27.759  INFO 17987 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 655 ms
+2021-05-01 13:03:27.828  INFO 17987 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 13:03:27.856  INFO 17987 --- [cluster-ClusterId{value='608d0447f27f723f58a88aa2', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:25}] to localhost:27017
+2021-05-01 13:03:27.856  INFO 17987 --- [cluster-rtt-ClusterId{value='608d0447f27f723f58a88aa2', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:26}] to localhost:27017
+2021-05-01 13:03:27.856  INFO 17987 --- [cluster-ClusterId{value='608d0447f27f723f58a88aa2', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9240980}
+2021-05-01 13:03:27.967  INFO 17987 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 13:03:28.163  INFO 17987 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-01 13:03:28.169  INFO 17987 --- [restartedMain] c.e.s.SpringGradleApplication            : Started SpringGradleApplication in 1.311 seconds (JVM running for 1.542)
+2021-05-01 13:03:42.527  INFO 17987 --- [http-nio-9000-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-01 13:03:42.528  INFO 17987 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-01 13:03:42.529  INFO 17987 --- [http-nio-9000-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-01 13:03:42.580  INFO 17987 --- [http-nio-9000-exec-3] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:27}] to localhost:27017
+2021-05-01 13:03:42.637 ERROR 17987 --- [http-nio-9000-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.example.mapper.Pojo]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.example.mapper.Pojo and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0])] with root cause
+
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.example.mapper.Pojo and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1277) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:145) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:107) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1512) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1006) ~[jackson-databind-2.11.4.jar:2.11.4]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:454) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:181) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:124) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.45.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.45.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_282]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_282]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_282]
+
+2021-05-01 13:03:51.689  INFO 17987 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:27}] to localhost:27017 because the pool has been closed.
+2021-05-01 13:05:22.508  INFO 18473 --- [restartedMain] c.e.s.SpringGradleApplication            : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 18473 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 13:05:22.510  INFO 18473 --- [restartedMain] c.e.s.SpringGradleApplication            : The following profiles are active: dev
+2021-05-01 13:05:22.550  INFO 18473 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 13:05:22.826  INFO 18473 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 13:05:22.826  INFO 18473 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 13:05:22.854  INFO 18473 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 1 MongoDB repository interfaces.
+2021-05-01 13:05:23.186  INFO 18473 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-01 13:05:23.192  INFO 18473 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 13:05:23.193  INFO 18473 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 13:05:23.194  INFO 18473 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 13:05:23.194  INFO 18473 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 13:05:23.195  INFO 18473 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 13:05:23.197  INFO 18473 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 13:05:23.230  INFO 18473 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 13:05:23.230  INFO 18473 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 679 ms
+2021-05-01 13:05:23.301  INFO 18473 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 13:05:23.331  INFO 18473 --- [cluster-ClusterId{value='608d04bb282e184fe0f01765', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:28}] to localhost:27017
+2021-05-01 13:05:23.331  INFO 18473 --- [cluster-rtt-ClusterId{value='608d04bb282e184fe0f01765', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:29}] to localhost:27017
+2021-05-01 13:05:23.331  INFO 18473 --- [cluster-ClusterId{value='608d04bb282e184fe0f01765', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10027924}
+2021-05-01 13:05:23.461  INFO 18473 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 13:05:23.654  INFO 18473 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-01 13:05:23.661  INFO 18473 --- [restartedMain] c.e.s.SpringGradleApplication            : Started SpringGradleApplication in 1.379 seconds (JVM running for 1.632)
+2021-05-01 13:05:30.546  INFO 18473 --- [http-nio-9000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-01 13:05:30.546  INFO 18473 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-01 13:05:30.547  INFO 18473 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-01 13:05:30.587  INFO 18473 --- [http-nio-9000-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:30}] to localhost:27017
+2021-05-01 13:05:55.884  INFO 18473 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:30}] to localhost:27017 because the pool has been closed.
+2021-05-01 13:06:08.483  INFO 18869 --- [restartedMain] c.e.s.SpringGradleApplication            : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 18869 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 13:06:08.485  INFO 18869 --- [restartedMain] c.e.s.SpringGradleApplication            : The following profiles are active: dev
+2021-05-01 13:06:08.524  INFO 18869 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 13:06:08.790  INFO 18869 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 13:06:08.791  INFO 18869 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 13:06:08.820  INFO 18869 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 MongoDB repository interfaces.
+2021-05-01 13:06:09.145  INFO 18869 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-01 13:06:09.152  INFO 18869 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 13:06:09.152  INFO 18869 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 13:06:09.153  INFO 18869 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 13:06:09.153  INFO 18869 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 13:06:09.154  INFO 18869 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 13:06:09.155  INFO 18869 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 13:06:09.190  INFO 18869 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 13:06:09.190  INFO 18869 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 666 ms
+2021-05-01 13:06:09.272  INFO 18869 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 13:06:09.305  INFO 18869 --- [cluster-rtt-ClusterId{value='608d04e9501b906b1fe04682', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:31}] to localhost:27017
+2021-05-01 13:06:09.305  INFO 18869 --- [cluster-ClusterId{value='608d04e9501b906b1fe04682', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:32}] to localhost:27017
+2021-05-01 13:06:09.306  INFO 18869 --- [cluster-ClusterId{value='608d04e9501b906b1fe04682', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=11690946}
+2021-05-01 13:06:09.429  INFO 18869 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 13:06:09.695  INFO 18869 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-01 13:06:09.703  INFO 18869 --- [restartedMain] c.e.s.SpringGradleApplication            : Started SpringGradleApplication in 1.426 seconds (JVM running for 1.671)
+2021-05-01 13:06:12.830  INFO 18869 --- [http-nio-9000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-01 13:06:12.831  INFO 18869 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-01 13:06:12.832  INFO 18869 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-01 13:06:12.879  INFO 18869 --- [http-nio-9000-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:33}] to localhost:27017
+2021-05-01 13:06:57.596  INFO 18869 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:33}] to localhost:27017 because the pool has been closed.
+2021-05-01 15:29:49.617  INFO 15357 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 15357 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 15:29:49.619  INFO 15357 --- [restartedMain] c.u.s.main.SpringGradleApplication       : The following profiles are active: dev
+2021-05-01 15:29:49.658  INFO 15357 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 15:29:49.890  INFO 15357 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 15:29:49.891  INFO 15357 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 15:29:49.896  INFO 15357 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 MongoDB repository interfaces.
+2021-05-01 15:29:50.217  INFO 15357 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-01 15:29:50.228  INFO 15357 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 15:29:50.228  INFO 15357 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 15:29:50.229  INFO 15357 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 15:29:50.229  INFO 15357 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 15:29:50.229  INFO 15357 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 15:29:50.230  INFO 15357 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 15:29:50.258  INFO 15357 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 15:29:50.258  INFO 15357 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 599 ms
+2021-05-01 15:29:50.314  INFO 15357 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 15:29:50.340  INFO 15357 --- [cluster-rtt-ClusterId{value='608d269616697c63c031abde', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:16}] to localhost:27017
+2021-05-01 15:29:50.340  INFO 15357 --- [cluster-ClusterId{value='608d269616697c63c031abde', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:17}] to localhost:27017
+2021-05-01 15:29:50.341  INFO 15357 --- [cluster-ClusterId{value='608d269616697c63c031abde', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=8781643}
+2021-05-01 15:29:50.504  INFO 15357 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-01 15:29:50.598  INFO 15357 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 15:29:50.610  INFO 15357 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-01 15:29:50.616  INFO 15357 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Started SpringGradleApplication in 1.21 seconds (JVM running for 1.442)
+2021-05-01 15:31:26.656  INFO 15357 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-01 15:31:26.656  INFO 15357 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-01 15:31:26.657  INFO 15357 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-01 15:34:01.900  INFO 15357 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-01 15:34:22.489  INFO 16217 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 16217 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 15:34:22.491  INFO 16217 --- [restartedMain] c.u.s.main.SpringGradleApplication       : The following profiles are active: dev
+2021-05-01 15:34:22.535  INFO 16217 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 15:34:22.749  INFO 16217 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 15:34:22.750  INFO 16217 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 15:34:22.754  INFO 16217 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 MongoDB repository interfaces.
+2021-05-01 15:34:23.021  INFO 16217 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-05-01 15:34:23.026  INFO 16217 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 15:34:23.026  INFO 16217 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 15:34:23.027  INFO 16217 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 15:34:23.027  INFO 16217 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 15:34:23.027  INFO 16217 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 15:34:23.028  INFO 16217 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 15:34:23.053  INFO 16217 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 15:34:23.053  INFO 16217 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 517 ms
+2021-05-01 15:34:23.103  INFO 16217 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 15:34:23.128  INFO 16217 --- [cluster-rtt-ClusterId{value='608d27a72176d7072c62e23a', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:18}] to localhost:27017
+2021-05-01 15:34:23.128  INFO 16217 --- [cluster-ClusterId{value='608d27a72176d7072c62e23a', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:19}] to localhost:27017
+2021-05-01 15:34:23.128  INFO 16217 --- [cluster-ClusterId{value='608d27a72176d7072c62e23a', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=8638986}
+2021-05-01 15:34:23.268  INFO 16217 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-01 15:34:23.364  INFO 16217 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 15:34:23.376  INFO 16217 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-05-01 15:34:23.382  INFO 16217 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Started SpringGradleApplication in 1.13 seconds (JVM running for 1.407)
+2021-05-01 15:34:35.612  INFO 16217 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-01 15:34:35.612  INFO 16217 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-01 15:34:35.613  INFO 16217 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-01 15:36:41.129  INFO 16217 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-01 15:36:48.178  INFO 16717 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 16717 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 15:36:48.179  INFO 16717 --- [restartedMain] c.u.s.main.SpringGradleApplication       : No active profile set, falling back to default profiles: default
+2021-05-01 15:36:48.211  INFO 16717 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-01 15:36:48.211  INFO 16717 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 15:36:48.405  INFO 16717 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 15:36:48.406  INFO 16717 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 15:36:48.410  INFO 16717 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 MongoDB repository interfaces.
+2021-05-01 15:36:48.687  INFO 16717 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-05-01 15:36:48.692  INFO 16717 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 15:36:48.692  INFO 16717 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 15:36:48.693  INFO 16717 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 15:36:48.694  INFO 16717 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 15:36:48.694  INFO 16717 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 15:36:48.695  INFO 16717 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 15:36:48.725  INFO 16717 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 15:36:48.725  INFO 16717 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 513 ms
+2021-05-01 15:36:48.778  INFO 16717 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 15:36:48.809  INFO 16717 --- [cluster-ClusterId{value='608d2838dc2e394554971109', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:20}] to localhost:27017
+2021-05-01 15:36:48.809  INFO 16717 --- [cluster-rtt-ClusterId{value='608d2838dc2e394554971109', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:21}] to localhost:27017
+2021-05-01 15:36:48.810  INFO 16717 --- [cluster-ClusterId{value='608d2838dc2e394554971109', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=14418552}
+2021-05-01 15:36:48.955  INFO 16717 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-01 15:36:49.040  INFO 16717 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 15:36:49.052  INFO 16717 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-05-01 15:36:49.059  INFO 16717 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Started SpringGradleApplication in 1.068 seconds (JVM running for 1.328)
+2021-05-01 15:37:02.400  INFO 16717 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-01 15:37:02.400  INFO 16717 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-01 15:37:02.401  INFO 16717 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-01 15:39:47.455  INFO 16717 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-01 15:39:53.367  INFO 17053 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 17053 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 15:39:53.368  INFO 17053 --- [restartedMain] c.u.s.main.SpringGradleApplication       : No active profile set, falling back to default profiles: default
+2021-05-01 15:39:53.404  INFO 17053 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-01 15:39:53.405  INFO 17053 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 15:39:53.608  INFO 17053 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 15:39:53.608  INFO 17053 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 15:39:53.613  INFO 17053 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 MongoDB repository interfaces.
+2021-05-01 15:39:53.926  INFO 17053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-05-01 15:39:53.931  INFO 17053 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 15:39:53.931  INFO 17053 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 15:39:53.932  INFO 17053 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 15:39:53.932  INFO 17053 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 15:39:53.932  INFO 17053 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 15:39:53.934  INFO 17053 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 15:39:53.956  INFO 17053 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 15:39:53.957  INFO 17053 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 552 ms
+2021-05-01 15:39:54.007  INFO 17053 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 15:39:54.040  INFO 17053 --- [cluster-ClusterId{value='608d28f252f0576eca6c5c4a', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:23}] to localhost:27017
+2021-05-01 15:39:54.040  INFO 17053 --- [cluster-rtt-ClusterId{value='608d28f252f0576eca6c5c4a', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:22}] to localhost:27017
+2021-05-01 15:39:54.041  INFO 17053 --- [cluster-ClusterId{value='608d28f252f0576eca6c5c4a', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=15511312}
+2021-05-01 15:39:54.176  INFO 17053 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-01 15:39:54.268  INFO 17053 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 15:39:54.281  INFO 17053 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-05-01 15:39:54.287  INFO 17053 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Started SpringGradleApplication in 1.115 seconds (JVM running for 1.337)
+2021-05-01 15:40:17.853  INFO 17053 --- [http-nio-8081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-01 15:40:17.853  INFO 17053 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-01 15:40:17.853  INFO 17053 --- [http-nio-8081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-05-01 15:46:05.257  INFO 17053 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-01 15:46:14.113  INFO 17844 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 17844 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 15:46:14.115  INFO 17844 --- [restartedMain] c.u.s.main.SpringGradleApplication       : No active profile set, falling back to default profiles: default
+2021-05-01 15:46:14.148  INFO 17844 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-01 15:46:14.149  INFO 17844 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 15:46:14.349  INFO 17844 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 15:46:14.349  INFO 17844 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 15:46:14.354  INFO 17844 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 MongoDB repository interfaces.
+2021-05-01 15:46:14.644  INFO 17844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-05-01 15:46:14.649  INFO 17844 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 15:46:14.649  INFO 17844 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 15:46:14.650  INFO 17844 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 15:46:14.650  INFO 17844 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 15:46:14.650  INFO 17844 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 15:46:14.652  INFO 17844 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 15:46:14.676  INFO 17844 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 15:46:14.676  INFO 17844 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 527 ms
+2021-05-01 15:46:14.726  INFO 17844 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 15:46:14.757  INFO 17844 --- [cluster-ClusterId{value='608d2a6ea5e1154279ae823f', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:25}] to localhost:27017
+2021-05-01 15:46:14.757  INFO 17844 --- [cluster-rtt-ClusterId{value='608d2a6ea5e1154279ae823f', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:24}] to localhost:27017
+2021-05-01 15:46:14.758  INFO 17844 --- [cluster-ClusterId{value='608d2a6ea5e1154279ae823f', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=14688650}
+2021-05-01 15:46:14.886  INFO 17844 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-01 15:46:14.969  INFO 17844 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 15:46:14.982  INFO 17844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-05-01 15:46:14.988  INFO 17844 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Started SpringGradleApplication in 1.064 seconds (JVM running for 1.304)
+2021-05-01 15:49:05.357  INFO 17844 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-01 15:49:10.902  INFO 18330 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 18330 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 15:49:10.903  INFO 18330 --- [restartedMain] c.u.s.main.SpringGradleApplication       : No active profile set, falling back to default profiles: default
+2021-05-01 15:49:10.936  INFO 18330 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-01 15:49:10.936  INFO 18330 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 15:49:11.149  INFO 18330 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 15:49:11.149  INFO 18330 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 15:49:11.171  INFO 18330 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 MongoDB repository interfaces.
+2021-05-01 15:49:11.460  INFO 18330 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2021-05-01 15:49:11.466  INFO 18330 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 15:49:11.466  INFO 18330 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 15:49:11.468  INFO 18330 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 15:49:11.468  INFO 18330 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 15:49:11.468  INFO 18330 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 15:49:11.469  INFO 18330 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 15:49:11.493  INFO 18330 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 15:49:11.494  INFO 18330 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 558 ms
+2021-05-01 15:49:11.563  INFO 18330 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 15:49:11.588  INFO 18330 --- [cluster-ClusterId{value='608d2b1fd9852f0474caa91a', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:26}] to localhost:27017
+2021-05-01 15:49:11.588  INFO 18330 --- [cluster-rtt-ClusterId{value='608d2b1fd9852f0474caa91a', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:27}] to localhost:27017
+2021-05-01 15:49:11.589  INFO 18330 --- [cluster-ClusterId{value='608d2b1fd9852f0474caa91a', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9126513}
+2021-05-01 15:49:11.671  INFO 18330 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 15:49:11.835  INFO 18330 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2021-05-01 15:49:11.841  INFO 18330 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Started SpringGradleApplication in 1.132 seconds (JVM running for 1.331)
+2021-05-01 15:49:49.419  INFO 18674 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 18674 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 15:49:49.420  INFO 18674 --- [restartedMain] c.u.s.main.SpringGradleApplication       : The following profiles are active: dev
+2021-05-01 15:49:49.453  INFO 18674 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 15:49:49.668  INFO 18674 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 15:49:49.669  INFO 18674 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 15:49:49.690  INFO 18674 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 MongoDB repository interfaces.
+2021-05-01 15:49:49.962  INFO 18674 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-01 15:49:49.967  INFO 18674 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 15:49:49.967  INFO 18674 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 15:49:49.968  INFO 18674 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 15:49:49.968  INFO 18674 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 15:49:49.968  INFO 18674 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 15:49:49.970  INFO 18674 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 15:49:49.995  INFO 18674 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 15:49:49.996  INFO 18674 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 542 ms
+2021-05-01 15:49:50.064  INFO 18674 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 15:49:50.090  INFO 18674 --- [cluster-rtt-ClusterId{value='608d2b4693c0991ea6d21a0a', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:28}] to localhost:27017
+2021-05-01 15:49:50.090  INFO 18674 --- [cluster-ClusterId{value='608d2b4693c0991ea6d21a0a', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:29}] to localhost:27017
+2021-05-01 15:49:50.091  INFO 18674 --- [cluster-ClusterId{value='608d2b4693c0991ea6d21a0a', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9491927}
+2021-05-01 15:49:50.185  INFO 18674 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 15:49:50.350  INFO 18674 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-01 15:49:50.355  INFO 18674 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Started SpringGradleApplication in 1.111 seconds (JVM running for 1.339)
+2021-05-01 15:50:05.810  INFO 18674 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-01 15:50:05.810  INFO 18674 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-01 15:50:05.810  INFO 18674 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-05-01 15:50:05.849  INFO 18674 --- [http-nio-9000-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:30}] to localhost:27017
+2021-05-01 15:52:08.961  INFO 18674 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:30}] to localhost:27017 because the pool has been closed.
+2021-05-01 16:13:21.356  INFO 22510 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 22510 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 16:13:21.357  INFO 22510 --- [restartedMain] c.u.s.main.SpringGradleApplication       : The following profiles are active: dev
+2021-05-01 16:13:21.393  INFO 22510 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 16:13:21.612  INFO 22510 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 16:13:21.612  INFO 22510 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 16:13:21.633  INFO 22510 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 MongoDB repository interfaces.
+2021-05-01 16:13:21.913  INFO 22510 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-01 16:13:21.918  INFO 22510 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 16:13:21.918  INFO 22510 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 16:13:21.919  INFO 22510 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 16:13:21.919  INFO 22510 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 16:13:21.919  INFO 22510 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 16:13:21.921  INFO 22510 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 16:13:21.952  INFO 22510 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 16:13:21.952  INFO 22510 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 559 ms
+2021-05-01 16:13:22.020  INFO 22510 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 16:13:22.045  INFO 22510 --- [cluster-ClusterId{value='608d30ca791008728b70d64d', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:32}] to localhost:27017
+2021-05-01 16:13:22.045  INFO 22510 --- [cluster-rtt-ClusterId{value='608d30ca791008728b70d64d', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:31}] to localhost:27017
+2021-05-01 16:13:22.046  INFO 22510 --- [cluster-ClusterId{value='608d30ca791008728b70d64d', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=8736934}
+2021-05-01 16:13:22.152  INFO 22510 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 16:13:22.317  INFO 22510 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-01 16:13:22.323  INFO 22510 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Started SpringGradleApplication in 1.148 seconds (JVM running for 1.355)
+2021-05-01 16:13:27.879  INFO 22510 --- [http-nio-9000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-01 16:13:27.879  INFO 22510 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-01 16:13:27.880  INFO 22510 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-01 16:13:27.920  INFO 22510 --- [http-nio-9000-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:33}] to localhost:27017
+2021-05-01 16:14:36.640  INFO 22510 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:33}] to localhost:27017 because the pool has been closed.
+2021-05-01 16:14:40.722  INFO 22971 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 22971 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 16:14:40.725  INFO 22971 --- [restartedMain] c.u.s.main.SpringGradleApplication       : The following profiles are active: dev
+2021-05-01 16:14:40.759  INFO 22971 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 16:14:40.975  INFO 22971 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 16:14:40.975  INFO 22971 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 16:14:40.996  INFO 22971 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 MongoDB repository interfaces.
+2021-05-01 16:14:41.283  INFO 22971 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-01 16:14:41.288  INFO 22971 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 16:14:41.288  INFO 22971 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 16:14:41.289  INFO 22971 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 16:14:41.289  INFO 22971 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 16:14:41.289  INFO 22971 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 16:14:41.290  INFO 22971 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 16:14:41.316  INFO 22971 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 16:14:41.316  INFO 22971 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 557 ms
+2021-05-01 16:14:41.380  INFO 22971 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 16:14:41.406  INFO 22971 --- [cluster-rtt-ClusterId{value='608d3119de7d744f88e656e4', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:34}] to localhost:27017
+2021-05-01 16:14:41.406  INFO 22971 --- [cluster-ClusterId{value='608d3119de7d744f88e656e4', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:35}] to localhost:27017
+2021-05-01 16:14:41.407  INFO 22971 --- [cluster-ClusterId{value='608d3119de7d744f88e656e4', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=10383319}
+2021-05-01 16:14:41.502  INFO 22971 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 16:14:41.694  INFO 22971 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-01 16:14:41.700  INFO 22971 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Started SpringGradleApplication in 1.15 seconds (JVM running for 1.349)
+2021-05-01 16:14:44.939  INFO 22971 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-01 16:14:44.939  INFO 22971 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-01 16:14:44.940  INFO 22971 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-01 16:14:44.977  INFO 22971 --- [http-nio-9000-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:36}] to localhost:27017
+2021-05-01 16:16:34.140  INFO 22971 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:36}] to localhost:27017 because the pool has been closed.
+2021-05-01 17:07:12.607  INFO 30123 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Starting SpringGradleApplication using Java 14.0.2 on uviksisindri with PID 30123 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 17:07:12.609  INFO 30123 --- [restartedMain] c.u.s.main.SpringGradleApplication       : The following profiles are active: dev
+2021-05-01 17:07:12.658  INFO 30123 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 17:07:12.952  INFO 30123 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 17:07:12.952  INFO 30123 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 17:07:12.977  INFO 30123 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 MongoDB repository interfaces.
+2021-05-01 17:07:13.298  INFO 30123 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-01 17:07:13.304  INFO 30123 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 17:07:13.305  INFO 30123 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 17:07:13.306  INFO 30123 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 17:07:13.306  INFO 30123 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 17:07:13.306  INFO 30123 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 17:07:13.308  INFO 30123 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 17:07:13.355  INFO 30123 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 17:07:13.356  INFO 30123 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 697 ms
+2021-05-01 17:07:13.437  INFO 30123 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 17:07:13.477  INFO 30123 --- [cluster-rtt-ClusterId{value='608d3d69135fbd4b83e0b753', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:38}] to localhost:27017
+2021-05-01 17:07:13.477  INFO 30123 --- [cluster-ClusterId{value='608d3d69135fbd4b83e0b753', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:37}] to localhost:27017
+2021-05-01 17:07:13.478  INFO 30123 --- [cluster-ClusterId{value='608d3d69135fbd4b83e0b753', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=13571314}
+2021-05-01 17:07:13.578  INFO 30123 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 17:07:13.804  INFO 30123 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-01 17:07:13.811  INFO 30123 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Started SpringGradleApplication in 1.498 seconds (JVM running for 1.884)
+2021-05-01 17:19:43.404  INFO 30123 --- [http-nio-9000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-01 17:19:43.404  INFO 30123 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-01 17:19:43.405  INFO 30123 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-01 17:19:43.455  INFO 30123 --- [http-nio-9000-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:40}] to localhost:27017
+2021-05-01 17:23:21.028  INFO 30123 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:40}] to localhost:27017 because the pool has been closed.
+2021-05-01 17:23:55.840  INFO 31165 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 31165 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 17:23:55.841  INFO 31165 --- [restartedMain] c.u.s.main.SpringGradleApplication       : The following profiles are active: dev
+2021-05-01 17:23:55.879  INFO 31165 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 17:23:56.126  INFO 31165 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 17:23:56.126  INFO 31165 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 17:23:56.152  INFO 31165 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 MongoDB repository interfaces.
+2021-05-01 17:23:56.459  INFO 31165 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-01 17:23:56.466  INFO 31165 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 17:23:56.466  INFO 31165 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 17:23:56.467  INFO 31165 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 17:23:56.467  INFO 31165 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 17:23:56.467  INFO 31165 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 17:23:56.468  INFO 31165 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 17:23:56.506  INFO 31165 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 17:23:56.506  INFO 31165 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 627 ms
+2021-05-01 17:23:56.582  INFO 31165 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 17:23:56.609  INFO 31165 --- [cluster-rtt-ClusterId{value='608d415430d4526e1b1631aa', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:41}] to localhost:27017
+2021-05-01 17:23:56.609  INFO 31165 --- [cluster-ClusterId{value='608d415430d4526e1b1631aa', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:42}] to localhost:27017
+2021-05-01 17:23:56.610  INFO 31165 --- [cluster-ClusterId{value='608d415430d4526e1b1631aa', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9216078}
+2021-05-01 17:23:56.723  INFO 31165 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 17:23:56.920  INFO 31165 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-01 17:23:56.927  INFO 31165 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Started SpringGradleApplication in 1.299 seconds (JVM running for 1.59)
+2021-05-01 17:24:01.350  INFO 31165 --- [http-nio-9000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-01 17:24:01.350  INFO 31165 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-01 17:24:01.351  INFO 31165 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-01 17:24:01.389  INFO 31165 --- [http-nio-9000-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:43}] to localhost:27017
+2021-05-01 17:26:02.207  INFO 31935 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 31935 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 17:26:02.209  INFO 31935 --- [restartedMain] c.u.s.main.SpringGradleApplication       : The following profiles are active: dev
+2021-05-01 17:26:02.245  INFO 31935 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 17:26:02.476  INFO 31935 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 17:26:02.477  INFO 31935 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 17:26:02.498  INFO 31935 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 MongoDB repository interfaces.
+2021-05-01 17:26:02.774  INFO 31935 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-01 17:26:02.779  INFO 31935 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 17:26:02.779  INFO 31935 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 17:26:02.780  INFO 31935 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 17:26:02.780  INFO 31935 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 17:26:02.780  INFO 31935 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 17:26:02.785  INFO 31935 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 17:26:02.813  INFO 31935 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 17:26:02.814  INFO 31935 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 568 ms
+2021-05-01 17:26:02.876  INFO 31935 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 17:26:02.903  INFO 31935 --- [cluster-rtt-ClusterId{value='608d41d267613a3a6b192120', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:44}] to localhost:27017
+2021-05-01 17:26:02.903  INFO 31935 --- [cluster-ClusterId{value='608d41d267613a3a6b192120', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:45}] to localhost:27017
+2021-05-01 17:26:02.903  INFO 31935 --- [cluster-ClusterId{value='608d41d267613a3a6b192120', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9822059}
+2021-05-01 17:26:03.002  WARN 31935 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-05-01 17:26:03.177  WARN 31935 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9000 is already in use
+2021-05-01 17:26:03.180  INFO 31935 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-05-01 17:26:03.187  INFO 31935 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-01 17:26:03.194 ERROR 31935 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9000 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9000 or configure this application to listen on another port.
+
+2021-05-01 17:26:38.826  INFO 31165 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:43}] to localhost:27017 because the pool has been closed.
+2021-05-01 17:26:47.011  INFO 32126 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 32126 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 17:26:47.013  INFO 32126 --- [restartedMain] c.u.s.main.SpringGradleApplication       : The following profiles are active: dev
+2021-05-01 17:26:47.049  INFO 32126 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 17:26:47.278  INFO 32126 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 17:26:47.278  INFO 32126 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 17:26:47.301  INFO 32126 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 MongoDB repository interfaces.
+2021-05-01 17:26:47.573  INFO 32126 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-01 17:26:47.578  INFO 32126 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 17:26:47.578  INFO 32126 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 17:26:47.579  INFO 32126 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 17:26:47.579  INFO 32126 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 17:26:47.579  INFO 32126 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 17:26:47.581  INFO 32126 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 17:26:47.606  INFO 32126 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 17:26:47.606  INFO 32126 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 556 ms
+2021-05-01 17:26:47.666  INFO 32126 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 17:26:47.690  INFO 32126 --- [cluster-rtt-ClusterId{value='608d41ffc127ba46b5573590', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:46}] to localhost:27017
+2021-05-01 17:26:47.690  INFO 32126 --- [cluster-ClusterId{value='608d41ffc127ba46b5573590', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:47}] to localhost:27017
+2021-05-01 17:26:47.691  INFO 32126 --- [cluster-ClusterId{value='608d41ffc127ba46b5573590', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=8784494}
+2021-05-01 17:26:47.787  INFO 32126 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 17:26:47.954  INFO 32126 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-01 17:26:47.959  INFO 32126 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Started SpringGradleApplication in 1.138 seconds (JVM running for 1.359)
+2021-05-01 17:29:18.902  INFO 32126 --- [http-nio-9000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-01 17:29:18.902  INFO 32126 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-01 17:29:18.902  INFO 32126 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-05-01 17:29:18.934  INFO 32126 --- [http-nio-9000-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:48}] to localhost:27017
+2021-05-01 17:31:09.427  WARN 32126 --- [http-nio-9000-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-05-01 17:31:52.622  WARN 32126 --- [http-nio-9000-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2021-05-01 17:37:35.430  WARN 32126 --- [http-nio-9000-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2021-05-01 17:43:15.159  INFO 32126 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:48}] to localhost:27017 because the pool has been closed.
+2021-05-01 17:43:21.662  INFO 33681 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 33681 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 17:43:21.664  INFO 33681 --- [restartedMain] c.u.s.main.SpringGradleApplication       : The following profiles are active: dev
+2021-05-01 17:43:21.702  INFO 33681 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 17:43:21.934  INFO 33681 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 17:43:21.934  INFO 33681 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 17:43:21.957  INFO 33681 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 MongoDB repository interfaces.
+2021-05-01 17:43:22.236  INFO 33681 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-01 17:43:22.241  INFO 33681 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 17:43:22.241  INFO 33681 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 17:43:22.242  INFO 33681 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 17:43:22.242  INFO 33681 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 17:43:22.242  INFO 33681 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 17:43:22.243  INFO 33681 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 17:43:22.269  INFO 33681 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 17:43:22.269  INFO 33681 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 567 ms
+2021-05-01 17:43:22.329  INFO 33681 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 17:43:22.354  INFO 33681 --- [cluster-rtt-ClusterId{value='608d45e21865fb2a2e910819', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:64}] to localhost:27017
+2021-05-01 17:43:22.354  INFO 33681 --- [cluster-ClusterId{value='608d45e21865fb2a2e910819', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:65}] to localhost:27017
+2021-05-01 17:43:22.354  INFO 33681 --- [cluster-ClusterId{value='608d45e21865fb2a2e910819', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=8855381}
+2021-05-01 17:43:22.449  INFO 33681 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 17:43:22.617  INFO 33681 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-01 17:43:22.624  INFO 33681 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Started SpringGradleApplication in 1.182 seconds (JVM running for 1.435)
+2021-05-01 17:43:27.640  INFO 33681 --- [http-nio-9000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-01 17:43:27.640  INFO 33681 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-01 17:43:27.640  INFO 33681 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-05-01 17:43:27.683  INFO 33681 --- [http-nio-9000-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:66}] to localhost:27017
+2021-05-01 17:59:16.056  INFO 33681 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:66}] to localhost:27017 because the pool has been closed.
+2021-05-01 17:59:29.090  INFO 35909 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 35909 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 17:59:29.091  INFO 35909 --- [restartedMain] c.u.s.main.SpringGradleApplication       : The following profiles are active: dev
+2021-05-01 17:59:29.123  INFO 35909 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 17:59:29.343  INFO 35909 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 17:59:29.343  INFO 35909 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 17:59:29.366  INFO 35909 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 MongoDB repository interfaces.
+2021-05-01 17:59:29.649  INFO 35909 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-01 17:59:29.653  INFO 35909 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 17:59:29.654  INFO 35909 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 17:59:29.654  INFO 35909 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 17:59:29.655  INFO 35909 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 17:59:29.655  INFO 35909 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 17:59:29.656  INFO 35909 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 17:59:29.684  INFO 35909 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 17:59:29.684  INFO 35909 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 560 ms
+2021-05-01 17:59:29.745  INFO 35909 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 17:59:29.770  INFO 35909 --- [cluster-ClusterId{value='608d49a90696990ea64b1bc6', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:68}] to localhost:27017
+2021-05-01 17:59:29.770  INFO 35909 --- [cluster-rtt-ClusterId{value='608d49a90696990ea64b1bc6', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:67}] to localhost:27017
+2021-05-01 17:59:29.771  INFO 35909 --- [cluster-ClusterId{value='608d49a90696990ea64b1bc6', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9619578}
+2021-05-01 17:59:29.866  INFO 35909 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 17:59:30.033  INFO 35909 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-01 17:59:30.039  INFO 35909 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Started SpringGradleApplication in 1.121 seconds (JVM running for 1.329)
+2021-05-01 17:59:39.230  INFO 35909 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-01 17:59:39.230  INFO 35909 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-01 17:59:39.231  INFO 35909 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-01 17:59:39.265  INFO 35909 --- [http-nio-9000-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:69}] to localhost:27017
+2021-05-01 18:05:08.852  INFO 35909 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:69}] to localhost:27017 because the pool has been closed.
+2021-05-01 18:05:18.804  INFO 36957 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Starting SpringGradleApplication using Java 1.8.0_282 on uviksisindri with PID 36957 (/home/uvik-sisindri/Pictures/SpringGradleApplication/build/classes/java/main started by uvik-sisindri in /home/uvik-sisindri/Pictures/SpringGradleApplication)
+2021-05-01 18:05:18.805  INFO 36957 --- [restartedMain] c.u.s.main.SpringGradleApplication       : The following profiles are active: dev
+2021-05-01 18:05:18.844  INFO 36957 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-01 18:05:19.103  INFO 36957 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-05-01 18:05:19.103  INFO 36957 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2021-05-01 18:05:19.128  INFO 36957 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 MongoDB repository interfaces.
+2021-05-01 18:05:19.440  INFO 36957 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2021-05-01 18:05:19.446  INFO 36957 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-01 18:05:19.446  INFO 36957 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-01 18:05:19.447  INFO 36957 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+2021-05-01 18:05:19.447  INFO 36957 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-05-01 18:05:19.447  INFO 36957 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-05-01 18:05:19.448  INFO 36957 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+2021-05-01 18:05:19.476  INFO 36957 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-05-01 18:05:19.477  INFO 36957 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 633 ms
+2021-05-01 18:05:19.541  INFO 36957 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-05-01 18:05:19.568  INFO 36957 --- [cluster-ClusterId{value='608d4b075ec02d1e3509d434', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:70}] to localhost:27017
+2021-05-01 18:05:19.568  INFO 36957 --- [cluster-rtt-ClusterId{value='608d4b075ec02d1e3509d434', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:71}] to localhost:27017
+2021-05-01 18:05:19.569  INFO 36957 --- [cluster-ClusterId{value='608d4b075ec02d1e3509d434', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=9686800}
+2021-05-01 18:05:19.676  INFO 36957 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-01 18:05:19.869  INFO 36957 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2021-05-01 18:05:19.875  INFO 36957 --- [restartedMain] c.u.s.main.SpringGradleApplication       : Started SpringGradleApplication in 1.283 seconds (JVM running for 1.514)
+2021-05-01 18:09:07.861  INFO 36957 --- [http-nio-9000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-01 18:09:07.861  INFO 36957 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-01 18:09:07.862  INFO 36957 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-01 18:09:07.901  INFO 36957 --- [http-nio-9000-exec-2] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:3, serverValue:72}] to localhost:27017
+2021-05-01 18:11:36.337  INFO 36957 --- [SpringContextShutdownHook] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:3, serverValue:72}] to localhost:27017 because the pool has been closed.
